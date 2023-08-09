@@ -1,0 +1,25 @@
+en – English
+de – Deutsch
+fr – français
+ja – 日本語
+es – español
+pt – português
+zh – 中文
+it – italiano
+fa – فارسی
+ar – العربية
+pl – polski
+nl – Nederlands
+uk – українська
+he – עברית
+id – Bahasa Indonesia
+tr – Türkçe
+vi – Tiếng Việt
+cs – čeština
+ko – 한국어
+sv – svenska
+fi – suomi
+hu – magyar
+hi – हिन्दी
+simple – Simple English
+th – ไทย
