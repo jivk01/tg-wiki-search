@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "lib": ["ES2022", "DOM"],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "target": "ES2022",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "outDir": "./dist"
+    }
+}

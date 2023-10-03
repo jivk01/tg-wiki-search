@@ -1,4 +1,4 @@
-module.exports = function shortenString(string, maxLength) {
+export default function shortenString(string, maxLength) {
     const paragraphs = string.split("\n\n")
 
     const selected = [paragraphs[0]]
