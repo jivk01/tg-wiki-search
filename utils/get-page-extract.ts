@@ -1,10 +1,12 @@
-const shortenString = require("./shorten-string.js")
+import type { WikipediaQuery } from "../types/wikipedia-query"
 
-module.exports = async function getPageExtract(key, lang) {
+import shortenString from "./shorten-string"
+
+export default async function getPageExtract(key: string, lang: string): Promise<string> {
     key = encodeURIComponent(key)
     const url = `https://${lang}.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&explaintext&exintro&titles=${key}`
 
-    const result = await (await fetch(url)).json()
+    const result = await (await fetch(url)).json() as {query: WikipediaQuery}
     const id = Object.keys(result.query.pages)[0]
 
     let extract = result.query.pages[id].extract
